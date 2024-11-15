@@ -40,42 +40,5 @@
         </form>
     </div>
 
-
-    <?php
-        if(isset($_REQUEST['display_btn'])) {
-            $cust_code = $_REQUEST['cust_code'];
-
-            // $query_cust = "SELECT * FROM BILLS WHERE CODE = '$cust_code' ORDER BY DATE DESC;";
-            // $result_cust = sqlsrv_query($conn, $query_cust);
-            
-            // if(sqlsrv_has_rows($result_cust)) {
-
-            //     $query_name = "SELECT NAME FROM MASTER WHERE CODE = '$cust_code' ";    
-            //     $result_name = sqlsrv_query($conn, $query_name);
-            //     $row_name = sqlsrv_fetch_array($result_name);
-            //     echo "Name: ". $row_name['NAME'];  // Displaying the name of the customer
-            //     echo "<br>";
-            //     echo "<br>";
-
-                
-            //     while ($row_cust = sqlsrv_fetch_array($result_cust)) {
-            //         echo $row_cust['BILL'];
-            //         echo "<br>" ;
-            //         // echo date($row_cust['DATE']);
-            //     }
-                
-            // }
-
-            // else
-            // {
-            //     echo "ID NOT FOUND";
-            // }
-        }
-        
-        
-
-    ?>
-
-
 </body>
 </html>
