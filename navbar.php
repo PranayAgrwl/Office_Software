@@ -20,7 +20,10 @@
                 <a class="nav-link" href="/pranay_sqlsrv/index.php">Index</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/pranay_sqlsrv/dropdown.php">Dropdown</a>
+                <a class="nav-link" href="/pranay_sqlsrv/dropdown.php">Ledger</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/pranay_sqlsrv/salebillNo.php">Sale Bill</a>
             </li>
         </ul>
     </div>
